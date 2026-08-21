@@ -1,0 +1,34 @@
+# Vivado build artifacts and caches
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.jou
+*.log
+*.str
+*.zip
+*.dcp
+
+# Vitis / CMake temporary builds
+hello_world/build/
+hello_world/CMakeFiles/
+*.o
+*.obj
+*.elf
+*.size
+*.map
+.Xil/
+
+# Keep source files, scripts, and block designs
+!*.v
+!*.vhd
+!*.sv
+!*.bd
+!*.tcl
+!*.xdc
+!*.c
+!*.h
+!*.cpp
+!CMakeLists.txt
