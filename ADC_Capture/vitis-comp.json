@@ -1,5 +1,5 @@
 {
-  "name": "hello_world",
+  "name": "ADC_Capture",
   "type": "HOST",
   "platform": "ADC_Platform",
   "domain": "standalone_ps7_cortexa9_0",

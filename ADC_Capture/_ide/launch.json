@@ -4,7 +4,7 @@
     {
       "type": "tcf-debug",
       "request": "launch",
-      "name": "hello_world_app_hw_1",
+      "name": "ADC_Capture_app_hw_1",
       "debugType": "baremetal-zynq",
       "attachToRunningTargetOptions": {
         "targetSetupMode": "standalone",
@@ -28,7 +28,7 @@
           "psDevice": "Auto Detect"
         },
         "resetAPU": false,
-        "bitstreamFile": "${workspaceFolder}\\hello_world\\_ide\\bitstream\\ADC1_Wrapper.bit",
+        "bitstreamFile": "${workspaceFolder}\\ADC_Capture\\_ide\\bitstream\\ADC1_Wrapper.bit",
         "zynqInitialization": {
           "isFsbl": false,
           "usingFSBL": {
@@ -39,14 +39,14 @@
           "usingPs7Init": {
             "runPs7Init": true,
             "runPs7PostInit": true,
-            "ps7InitTclFile": "${workspaceFolder}\\hello_world\\_ide\\psinit\\ps7_init.tcl"
+            "ps7InitTclFile": "${workspaceFolder}\\ADC_Capture\\_ide\\psinit\\ps7_init.tcl"
           }
         },
         "downloadElf": [
           {
             "core": "ps7_cortexa9_0",
             "resetProcessor": true,
-            "elfFile": "${workspaceFolder}\\hello_world\\build\\hello_world.elf",
+            "elfFile": "${workspaceFolder}\\ADC_Capture\\build\\ADC_Capture.elf",
             "stopAtEntry": false,
             "isSelfRelocatingApp": false,
             "relativeAddress": ""
